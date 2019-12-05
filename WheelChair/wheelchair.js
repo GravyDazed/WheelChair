@@ -233,8 +233,8 @@ function cripple_window(_window) {
 
 
             // silent aim
-            inputs[xDr] = +(tx % PI2).toFixed(3);
-            inputs[yDr] = +(ty % PI2).toFixed(3);
+            //inputs[xDr] = +(tx % PI2).toFixed(3);
+            //inputs[yDr] = +(ty % PI2).toFixed(3);
 
             // auto reload
             controls.keys[controls.reloadKey] = !haveAmmo() * 1;
